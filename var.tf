@@ -1,23 +1,23 @@
 variable "AWS_REGION" {
-    default = "ap-southeast-1"
+    default = "ap-south-1"
 }
 variable "AWS_AMI" {
-    default = "ami-0b03299ddb99998e9"
+    default = "ami-05c179eced2eb9b5b"
 }
 variable "AWS_AMI_UBUNTU" {
     default = "ami-060e277c0d4cce553"
 }
 variable "az" {
-    default = "ap-southeast-1a"
+    default = "ap-south-1a"
 }
 variable "akey" {
-    default = "AK"
+    default = ""
 }
 variable "skey" {
-    default = "PK"
+    default = ""
 }
 variable "pkey" {
-    default = "Linux-Singapoore-2025"
+    default = "linux-mumbai-keypair-2025"
 }
 variable "rpass" {
     default = "111"
